@@ -7,6 +7,7 @@ import Service from './components/page/our-service/OurService';
 import Contact from './components/page/contact/Contact';
 import AboutUs from './components/page/about-us/AboutUs';
 import Prewedding from './components/page/our-service/prewedding/Prewedding';
+import PreweddingDetails from './components/page/our-service/prewedding/PreweddingDetails';
 import Wedding from './components/page/our-service/wedding/Wedding';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" exact component={Contact} />
         <Route path="/about-us" exact component={AboutUs} />
         <Route path="/prewedding" exact component={Prewedding} />
+        <Route path="/prewedding-details" exact component={PreweddingDetails} />
         <Route path="/wedding" exact component={Wedding} />
       </Switch>
     </Router>

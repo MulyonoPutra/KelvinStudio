@@ -11,7 +11,7 @@ function Prewedding() {
                         src='/assets/images/_MG_4204.jpg'
                         text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
                         label='Wedding'
-                        path='/services'
+                        path='/prewedding-details'
                     />
                     <CardItem
                         src='/assets/images/DSC04353.JPG'

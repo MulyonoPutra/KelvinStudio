@@ -12,7 +12,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/assets/images/_MG_8783.JPG'
+              src= '/assets/images/_MG_8783.JPG'
               text='Explores the hidden waterfall deep inside the Amazon Jungle'
               label='Wedding'
               path='/services'
