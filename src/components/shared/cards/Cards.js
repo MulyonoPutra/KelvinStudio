@@ -13,13 +13,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src= '/assets/images/_MG_8783.JPG'
-              text='Explores the hidden waterfall deep inside the Amazon Jungle'
+              text='Once in awhile, right in the middle of an ordinary life, love gives us a fairy tale.'
               label='Wedding'
               path='/services'
             />
             <CardItem
               src='/assets/images/photo3.jpeg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='A hundred hearts would be too few to carry all my love for you.'
               label='Wedding'
               path='/services'
             />
@@ -27,19 +27,19 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='/assets/images/_MG_4204.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='In the arithmetic of love, one plus one equals everything, and two minus one equals nothing.'
               label='Wedding'
               path='/services'
             />
             <CardItem
               src='/assets/images/DSC04353.JPG'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='I would rather share one lifetime with you than face all the ages of this world alone.'
               label='Wedding'
               path='/products'
             />
             <CardItem
               src='/assets/images/photo4.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='Keep love in your heart. A life without it is like a sunless garden when the flowers are.'
               label='Prewedding'
               path='/sign-up'
             />
