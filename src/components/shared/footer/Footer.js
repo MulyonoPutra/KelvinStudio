@@ -1,33 +1,13 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from '../../shared/button/Button'
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
-        </div>
-      </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
@@ -44,7 +24,7 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
@@ -53,8 +33,8 @@ function Footer() {
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+            <a href='https://www.instagram.com/kelvinphotography.id/?hl=id' target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href='https://www.facebook.com/kelvinphotography.id/' target="_blank" rel="noopener noreferrer">Facebook</a>
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
           </div>
@@ -68,48 +48,54 @@ function Footer() {
               <i className='fab fa-typo3' />
             </Link>
           </div>
-          <small className='website-rights'>TRVL © 2020</small>
+          <small className='website-rights'>Kelvin Studio © 2020</small>
           <div className='social-icons'>
-            <Link
+            <a
+            href="/"
               className='social-icon-link facebook'
               to='/'
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link instagram'
-              to='/'
+              href='https://www.instagram.com/kelvinphotography.id/?hl=id'
+              rel="noopener noreferrer"
               target='_blank'
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link youtube'
-              to='/'
+              href='/'
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='Youtube'
             >
               <i className='fab fa-youtube' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link twitter'
-              to='/'
+              href='/'
               target='_blank'
               aria-label='Twitter'
+              rel="noopener noreferrer"
             >
               <i className='fab fa-twitter' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link twitter'
-              to='/'
+              href='/'
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
