@@ -44,8 +44,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i className='fab fa-typo3' />
+              <img className="size-logo" src="/assets/images/logo/gold.png" alt=""/>
             </Link>
           </div>
           <small className='website-rights'>Kelvin Studio © 2020</small>
