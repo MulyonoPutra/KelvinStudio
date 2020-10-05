@@ -29,13 +29,13 @@ function Cards() {
               src='/assets/images/_MG_4204.jpg'
               text='In the arithmetic of love, one plus one equals everything, and two minus one equals nothing.'
               label='Wedding'
-              path='/services'
+              path='/prewedding-details'
             />
             <CardItem
               src='/assets/images/DSC04353.JPG'
               text='I would rather share one lifetime with you than face all the ages of this world alone.'
               label='Wedding'
-              path='/products'
+              path='/wedding-details-04'
             />
             <CardItem
               src='/assets/images/photo4.jpg'

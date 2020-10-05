@@ -9,6 +9,7 @@ import AboutUs from './components/page/about-us/AboutUs';
 import Prewedding from './components/page/our-service/prewedding/Prewedding';
 import PreweddingDetails from './components/page/our-service/prewedding/PreweddingDetails';
 import Wedding from './components/page/our-service/wedding/Wedding';
+import WeddingDetails04 from './components/page/our-service/wedding/WeddingDetails4';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/prewedding" exact component={Prewedding} />
         <Route path="/prewedding-details" exact component={PreweddingDetails} />
         <Route path="/wedding" exact component={Wedding} />
+        <Route path="/wedding-details-04" exact component={WeddingDetails04} />
       </Switch>
     </Router>
     
