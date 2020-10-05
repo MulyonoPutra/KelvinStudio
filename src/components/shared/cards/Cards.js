@@ -38,10 +38,10 @@ function Cards() {
               path='/wedding-details-04'
             />
             <CardItem
-              src='/assets/images/photo4.jpg'
+              src='/assets/images/wedding3/_MG_4166.jpg'
               text='Keep love in your heart. A life without it is like a sunless garden when the flowers are.'
-              label='Prewedding'
-              path='/sign-up'
+              label='Wedding'
+              path='/wedding-details-03'
             />
           </ul>
         </div>
