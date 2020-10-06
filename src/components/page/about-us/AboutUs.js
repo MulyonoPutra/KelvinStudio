@@ -4,12 +4,6 @@ import { css } from '@emotion/core';
 import MoonLoader from 'react-spinners/MoonLoader';
 import '../about-us/AboutUs.css'
 
-const override = css`
-	display: block;
-	margin: 0 auto;
-	border-color: red;
-`;
-
 function AboutUs() {
 	const [ load, setLoad ] = useState(true);
 
@@ -17,7 +11,6 @@ function AboutUs() {
 		const timeoutID = setTimeout(() => {
 			setLoad(false);
 		}, 500);
-
 		return () => clearTimeout(timeoutID);
 	}, []);
 
@@ -30,12 +23,18 @@ function AboutUs() {
 	);
 }
 
-function Spinners(load) {
+const Spinners = (load) => {
 	return (
 		<div className="sweet-loading">
 			<MoonLoader css={override} size={150} color={"#C5B358"} loading={load} />
 		</div>
 	);
 }
+
+const override = css`
+	display: block;
+	margin: 0 auto;
+	border-color: red;
+`;
 
 export default AboutUs;
