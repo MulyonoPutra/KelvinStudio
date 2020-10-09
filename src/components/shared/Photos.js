@@ -10,36 +10,16 @@ export const WeddingGallery = [
 	{ src: '/assets/images/_MG_8971.jpg', width: 4, height: 3 }
 ];
 
-export const preWeddingGallery0 = [
-	{ src: '/assets/images/prewedding2/DSC08469.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding2/DSC08520.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding2/DSC08533.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding2/DSC08632.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding2/DSC08601.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding2/DSC08787.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding2/KLV06382.jpg', width: 4, height: 3 }
-];
-
-export const preWeddingGallery01 = [
-	{ src: '/assets/images/prewedding1/8.jpeg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/9.jpeg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/10.jpeg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7205813.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/KLV03916.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/KLV03967.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/KLV04143.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7205888.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7205908.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7205949.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7206034.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7206048.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7206115.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7206128.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/photo3.jpeg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/photo4.jpeg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/photo5.jpeg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/photo12.jpeg', width: 4, height: 3 },
-	{ src: '/assets/images/prewedding1/A7205741.jpg', width: 4, height: 3 },
+export const WeddingGallery02 = [
+	{ src: '/assets/images/wedding2/DSC01786.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/wedding2/DSC02135.jpg', width: 4, height: 5 },
+	{ src: '/assets/images/wedding2/DSC02136.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/wedding2/DSC02164.jpg', width: 4, height: 5 },
+	{ src: '/assets/images/wedding2/DSC02171.jpg', width: 4, height: 5 },
+	{ src: '/assets/images/wedding2/DSC02177.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/wedding2/DSC02179.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/wedding2/DSC02295.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/wedding2/DSC02372.jpg', width: 4, height: 3 }
 ];
 
 export const weddingGallery03 = [
@@ -79,5 +59,39 @@ export const weddingGallery04 = [
 	{ src: '/assets/images/wedding4/DSC04614.JPG', width: 4, height: 5 },
 	{ src: '/assets/images/wedding4/DSC04617.JPG', width: 4, height: 3 }
 ];
+
+export const preWeddingGallery0 = [
+	{ src: '/assets/images/prewedding2/DSC08469.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding2/DSC08520.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding2/DSC08533.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding2/DSC08632.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding2/DSC08601.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding2/DSC08787.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding2/KLV06382.jpg', width: 4, height: 3 }
+];
+
+export const preWeddingGallery01 = [
+	{ src: '/assets/images/prewedding1/8.jpeg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/9.jpeg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/10.jpeg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7205813.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/KLV03916.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/KLV03967.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/KLV04143.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7205888.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7205908.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7205949.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7206034.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7206048.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7206115.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7206128.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/photo3.jpeg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/photo4.jpeg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/photo5.jpeg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/photo12.jpeg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding1/A7205741.jpg', width: 4, height: 3 },
+];
+
+
 
 /* _MG_4204.jpg */

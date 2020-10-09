@@ -13,6 +13,7 @@ import Wedding from './components/page/our-service/wedding/Wedding';
 import WeddingDetails04 from './components/page/our-service/wedding/WeddingDetails4';
 import WeddingDetails03 from './components/page/our-service/wedding/WeddingDetails3';
 import WeddingDetails02 from './components/page/our-service/wedding/WeddingDetails2';
+import WeddingDetails01 from './components/page/our-service/wedding/WeddingDetails1';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/wedding/wedding-details-04" exact component={WeddingDetails04} />
         <Route path="/wedding/wedding-details-03" exact component={WeddingDetails03} />
         <Route path="/wedding/wedding-details-02" exact component={WeddingDetails02} />
+        <Route path="/wedding/wedding-details-01" exact component={WeddingDetails01} />
       </Switch>
     </Router>
     
