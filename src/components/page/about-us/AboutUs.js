@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../../App.css';
 import { css } from '@emotion/core';
 import MoonLoader from 'react-spinners/MoonLoader';
-import '../about-us/AboutUs.css'
+import '../about-us/AboutUs.css';
 
 function AboutUs() {
 	const [ load, setLoad ] = useState(true);
@@ -26,10 +26,10 @@ function AboutUs() {
 const Spinners = (load) => {
 	return (
 		<div className="sweet-loading">
-			<MoonLoader css={override} size={150} color={"#C5B358"} loading={load} />
+			<MoonLoader css={override} size={150} color={'#C5B358'} loading={load} />
 		</div>
 	);
-}
+};
 
 const override = css`
 	display: block;

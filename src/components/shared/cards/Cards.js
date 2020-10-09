@@ -12,16 +12,16 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src= '/assets/images/_MG_8783.JPG'
+              src= '/assets/images/prewedding1/photo12.jpeg'
               text='Once in awhile, right in the middle of an ordinary life, love gives us a fairy tale.'
-              label='Wedding'
-              path='/services'
+              label='Prewedding'
+              path='/prewedding/prewedding-details'
             />
             <CardItem
-              src='/assets/images/photo3.jpeg'
+              src='/assets/images/_MG_7957.jpg'
               text='A hundred hearts would be too few to carry all my love for you.'
               label='Wedding'
-              path='/services'
+              path='wedding/wedding-details-02'
             />
           </ul>
           <ul className='cards__items'>
@@ -29,19 +29,19 @@ function Cards() {
               src='/assets/images/_MG_4204.jpg'
               text='In the arithmetic of love, one plus one equals everything, and two minus one equals nothing.'
               label='Wedding'
-              path='/prewedding-details'
+              path='wedding/wedding-details-02'
             />
             <CardItem
               src='/assets/images/DSC04353.JPG'
               text='I would rather share one lifetime with you than face all the ages of this world alone.'
               label='Wedding'
-              path='/wedding-details-04'
+              path='wedding/wedding-details-04'
             />
             <CardItem
               src='/assets/images/wedding3/_MG_4166.jpg'
               text='Keep love in your heart. A life without it is like a sunless garden when the flowers are.'
               label='Wedding'
-              path='/wedding-details-03'
+              path='wedding/wedding-details-03'
             />
           </ul>
         </div>

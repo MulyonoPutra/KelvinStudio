@@ -13,7 +13,6 @@ function Contact() {
 		return () => clearTimeout(timeoutID);
 	}, []);
 
-
 	return load ? (
 		Spinners()
 	) : (
@@ -26,10 +25,10 @@ function Contact() {
 const Spinners = (load) => {
 	return (
 		<div className="sweet-loading">
-			<MoonLoader css={override} size={150} color={"#C5B358"} loading={load} />
+			<MoonLoader css={override} size={150} color={'#C5B358'} loading={load} />
 		</div>
 	);
-}
+};
 
 const override = css`
 	display: block;

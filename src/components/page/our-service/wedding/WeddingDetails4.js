@@ -4,10 +4,14 @@ import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { weddingGallery04 } from "../../../shared/Photos";
+import '../../../../App.css';
+import { css } from '@emotion/core';
+import MoonLoader from 'react-spinners/MoonLoader';
 
 function WeddingDetails4() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
+  const [load, setLoad] = useState(true);
 
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
@@ -19,7 +23,16 @@ function WeddingDetails4() {
     setViewerIsOpen(false);
   };
 
-  return (
+  React.useEffect(() => {
+    const timeoutID = setTimeout(() => {
+      setLoad(false);
+    }, 500);
+    return () => clearTimeout(timeoutID);
+  }, []);
+
+  return load ? (
+    Spinners()
+  ) : (
     <>
       <div className="container-fluid">
         <Gallery photos={weddingGallery04} onClick={openLightbox} />
@@ -45,5 +58,19 @@ function WeddingDetails4() {
     </>
   );
 }
+
+const Spinners = (load) => {
+  return (
+    <div className="sweet-loading">
+      <MoonLoader css={override} size={150} color={"#C5B358"} loading={load} />
+    </div>
+  );
+}
+
+const override = css`
+	display: block;
+	margin: 0 auto;
+	border-color: red;
+`;
 
 export default WeddingDetails4;

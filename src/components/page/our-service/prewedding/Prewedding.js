@@ -22,16 +22,16 @@ function Prewedding() {
                 <br/>
                 <ul className='cards__items'>
                     <CardItem
-                        src='/assets/images/_MG_4204.jpg'
+                        src='/assets/images/prewedding2/DSC08469.jpg'
                         text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                        label='Wedding'
-                        path='/prewedding-details'
+                        label='Prewedding Indah & Ari'
+                        path='/prewedding/prewedding-details1'
                     />
                     <CardItem
-                        src='/assets/images/DSC04353.JPG'
+                        src='/assets/images/prewedding1/photo12.jpeg'
                         text='Experience Football on Top of the Himilayan Mountains'
-                        label='Wedding'
-                        path='/products'
+                        label='Prewedding of Tatu & Faqih'
+                        path='/prewedding/prewedding-details'
                     />
                     <CardItem
                         src='/assets/images/photo4.jpg'

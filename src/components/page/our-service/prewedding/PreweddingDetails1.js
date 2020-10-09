@@ -3,12 +3,12 @@
 import React, { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { preWeddingGallery01 } from "../../../shared/Photos";
+import { preWeddingGallery0 } from "../../../shared/Photos";
 import '../../../../App.css';
 import { css } from '@emotion/core';
 import MoonLoader from 'react-spinners/MoonLoader';
 
-function PreweddingDetails() {
+function PreweddingDetails1() {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
   const [load, setLoad] = useState(true);
@@ -35,14 +35,14 @@ function PreweddingDetails() {
   ) : (
       <>
         <div className="container-fluid">
-          <Gallery photos={preWeddingGallery01} onClick={openLightbox} />
+          <Gallery photos={preWeddingGallery0} onClick={openLightbox} />
           <br />
           <ModalGateway>
             {viewerIsOpen ? (
               <Modal onClose={closeLightbox}>
                 <Carousel
                   currentIndex={currentImage}
-                  views={preWeddingGallery01.map((x) => ({
+                  views={preWeddingGallery0.map((x) => ({
                     ...x,
                     srcset: x.srcSet,
                     caption: x.title,
@@ -73,4 +73,4 @@ const override = css`
 	border-color: red;
 `;
 
-export default PreweddingDetails;
+export default PreweddingDetails1;
