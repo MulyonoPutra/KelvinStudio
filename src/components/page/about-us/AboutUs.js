@@ -3,6 +3,8 @@ import '../../../App.css';
 import { css } from '@emotion/core';
 import MoonLoader from 'react-spinners/MoonLoader';
 import '../about-us/AboutUs.css';
+import * as Constants from '../../shared/Constants';
+import Footer from '../../shared/footer/Footer';
 
 function AboutUs() {
 	const [ load, setLoad ] = useState(true);
@@ -18,7 +20,11 @@ function AboutUs() {
 		Spinners()
 	) : (
 		<div>
-			<h1 className="about-us">About Us</h1>
+			<div className="jumbotron"> </div>
+			<h4 className="about-text">
+				<p>{Constants.ABOUT_US}</p>
+			</h4>
+			<Footer />
 		</div>
 	);
 }

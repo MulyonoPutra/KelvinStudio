@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import '../../../App.css';
 import { css } from '@emotion/core';
 import MoonLoader from 'react-spinners/MoonLoader';
+import './Contact.css'
+import Footer from '../../shared/footer/Footer';
 
 function Contact() {
-	const [ load, setLoad ] = useState(true);
+	const [load, setLoad] = useState(true);
 
 	React.useEffect(() => {
 		const timeoutID = setTimeout(() => {
@@ -13,14 +15,136 @@ function Contact() {
 		return () => clearTimeout(timeoutID);
 	}, []);
 
+
 	return load ? (
 		Spinners()
 	) : (
+		<>
 		<div>
-			<h1 className="contact">Contact</h1>
+			<ul className="grid-container">
+				<li>
+				<img src="/assets/images/logo/undraw_opened_gi4n.png" alt="mssg" className="img-mssg" />
+				</li>
+				<li>
+					<div className="addresses">
+						<h4>For reservations and enquiries : </h4> <br/>
+						<h4>Kelvinstudioofficial@gmail.com</h4>
+						<h4>Cornerspace.id, Taman Krakatau E20/20 RT 004/008, Waringinkurung, Serang, Banten 42453</h4>
+						<h4>+62 812-7595-2241</h4>
+					</div>
+					<div className="forms">
+						<form
+						className="form-group"
+						id="my-form"
+						action="https://formspree.io/f/mgendvow"
+						method="POST"
+						>
+						<div className="mb-3">
+							<label htmlFor="fullName" className="form-label">
+							Name
+							</label>
+							<input
+							required
+							type="text"
+							className="form-control"
+							id="fullName"
+							aria-describedby="fullName"
+							name="name"
+							/>
+						</div>
+						<div className="mb-3">
+							<label htmlFor="email" className="form-label">
+							Email
+							</label>
+							<input
+							required
+							id="email"
+							type="email"
+							className="form-control"
+							name="email"
+							/>
+						</div>
+						<div className="mb-3">
+							<label htmlFor="Messages" className="form-label">
+							Messages
+							</label>
+							<textarea
+							required
+							className="form-control"
+							id="messages"
+							rows="3"
+							name="messages"
+							></textarea>
+						</div>
+						<button
+							type="submit"
+							className="btn btn-warning"
+							id="send"
+							disabled={load}
+						>
+							{load && <Spinners animation="grow" size="sm" />}
+							Send Messages
+						</button>
+						</form>
+					</div>
+				</li>
+			</ul>
 		</div>
-	);
+		<br/>
+		<Footer/>
+		</>
+		);
 }
+
+
+window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+    
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+    
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+	if (form) {
+		form.addEventListener("submit", function(ev) {
+		  ev.preventDefault();
+		  var data = new FormData(form);
+		  ajax(form.method, form.action, data, success, error);
+		});
+	}
+  });
+  
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+
+
 
 const Spinners = (load) => {
 	return (

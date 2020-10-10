@@ -1,3 +1,35 @@
 .sweet-loading {
     margin-top: 150px;
 }
+
+.jumbotron {
+    background-image: url('/assets/images/DSC04353.JPG');
+    height: 550px;
+    margin-top: 25px;
+    margin-bottom: -26px;
+    background-size: cover cover;
+    background-position: center center;
+    border-radius: 0%;
+}
+
+.about-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+	margin-left: 190px;
+	margin-right: 190px;
+	text-align: center;
+	color: #c5b358;
+	font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-text {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 90px;
+        margin-right: 90px;
+        text-align: center;
+        color: #c5b358;
+        font-size: 15px;
+    }
+  }
