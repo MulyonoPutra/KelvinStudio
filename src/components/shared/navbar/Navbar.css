@@ -79,6 +79,15 @@
   .menu-icon {
     display: none;
   }
+
+  @media screen and (max-width: 768px) {
+    .size-logo {
+      height: 110px;
+      width: 130px;
+      margin-top: -45px;
+      text-align: center;
+    }
+  }
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
@@ -89,7 +98,7 @@
       height: 110px;
       width: 130px;
       margin-top: -45px;
-      margin-left: 100px;
+      text-align: center;
     }
 
     .nav-menu {
