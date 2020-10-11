@@ -3,3 +3,5 @@ export const ARTICLE =
 
 export const ABOUT_US =
 	'We are professional photographers and videographers who live in Banten. Our pleasure in the world of photography and videography not only we want to feel and enjoy ourselves, but other people must also feel what we feel. 2018 is our first stand, with the expertise we have, we are ready to capture your every journey and precious moments into an unforgettable masterpiece created by passion, love and excitement. Our increasing experience, does not make us stop to always improve the quality of service and work in order to achieve maximum and satisfying work. We are committed to creating works that are not only interesting, but also unique and different so that we can keep abreast of the times. Its not wrong if you choose us as a partner, with us you dont need to think hard and waste a lot of time. We will work for you by creating the best works.';
+
+export const regexEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
