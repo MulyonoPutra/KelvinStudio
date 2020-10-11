@@ -11,15 +11,12 @@ function Footer() {
 						<h2>About Us</h2>
 						<Link to="/sign-up">How it works</Link>
 						<Link to="/">Testimonials</Link>
-						<Link to="/">Careers</Link>
-						<Link to="/">Investors</Link>
 						<Link to="/">Terms of Service</Link>
 					</div>
 					<div className="footer-link-items">
 						<h2>Contact Us</h2>
 						<Link to="/">Contact</Link>
 						<Link to="/">Support</Link>
-						<Link to="/">Destinations</Link>
 						<Link to="/">Sponsorships</Link>
 					</div>
 				</div>
@@ -54,12 +51,12 @@ function Footer() {
 			</div>
 			<section className="social-media">
 				<div className="social-media-wrap">
-					<div className="footer-logo">
+					{/* <div className="footer-logo">
 						<Link to="/" className="social-logo">
 							<img className="size-logo" src="/assets/images/logo/gold.png" alt="" />
 						</Link>
-					</div>
-					<small className="website-rights">Kelvin Studio © 2020</small>
+					</div> */}
+					<small className="website-rights">Kelvin Photography © 2020 All Right Reserved.</small>
 					<div className="social-icons">
 						<a
 							href="/"

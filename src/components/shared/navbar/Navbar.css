@@ -90,6 +90,11 @@
   }
   
   @media screen and (max-width: 960px) {
+
+    .size-logo {
+      margin-left: 63px !important;
+    }
+
     .NavbarItems {
       position: relative;
     }

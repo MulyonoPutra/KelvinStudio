@@ -32,12 +32,12 @@
     resize: none;
   }
 
-  /* Form Validation */
+
+    /* Form Validation */
 
 * {
 	box-sizing: border-box;
 }
-
 
 .container {
 	background-color: #fff;
@@ -183,34 +183,22 @@
 	text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
-
-	.social-panel-container.visible {
-		transform: translateX(0px);
-	}
-	
-	.floating-btn {
-		right: 10px;
-	}
-}
-
 @media screen and (max-width: 768px) {
     .img-mssg {
         height: 320px;
         width: 350px;
-        margin-left: 70px;
+        margin-left: -10px;
         margin-top: 20px;
     }
     
     .forms {
-        margin-left: -400px;
+        margin-left: -320px;
         margin-right: 50px;
         margin-top: 20px;
     }
 
     .addresses {
-        margin-left: -400px;
-        margin-right: 20px;
+        margin-left: -320px;
         margin-top: 420px;
     }
   }
