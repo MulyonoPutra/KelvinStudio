@@ -24,7 +24,7 @@ function Prewedding() {
                     <CardItem
                         src='/assets/images/prewedding2/DSC08469.jpg'
                         text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                        label='Prewedding Indah & Ari'
+                        label='Prewedding of Indah & Ari'
                         path='/prewedding/prewedding-details1'
                     />
                     <CardItem

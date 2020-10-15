@@ -6,7 +6,7 @@ import * as Constants from '../../shared/Constants'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Kelvin Studio</h1>
+      <h1>Kelvin Photography</h1>
       <h4 className="article">{Constants.ARTICLE}</h4>
       <div className='cards__container'>
         <div className='cards__wrapper'>
