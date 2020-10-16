@@ -9,13 +9,13 @@ function Footer() {
 				<div className="footer-link-wrapper">
 					<div className="footer-link-items">
 						<h2>About Us</h2>
-						<Link to="/sign-up">How it works</Link>
+						<Link to="/">How it works</Link>
 						<Link to="/">Testimonials</Link>
 						<Link to="/">Terms of Service</Link>
 					</div>
 					<div className="footer-link-items">
 						<h2>Contact Us</h2>
-						<Link to="/">Contact</Link>
+						<Link to="/contact">Contact</Link>
 						<Link to="/">Support</Link>
 						<Link to="/">Sponsorships</Link>
 					</div>
@@ -26,7 +26,6 @@ function Footer() {
 						<Link to="/">Our Videos</Link>
 						<Link to="/">Ambassadors</Link>
 						<Link to="/">Agency</Link>
-						<Link to="/">Influencer</Link>
 					</div>
 					<div className="footer-link-items">
 						<h2>Social Media</h2>
@@ -45,7 +44,6 @@ function Footer() {
 							Facebook
 						</a>
 						<Link to="/">Youtube</Link>
-						<Link to="/">Twitter</Link>
 					</div>
 				</div>
 			</div>
@@ -94,15 +92,6 @@ function Footer() {
 							rel="noopener noreferrer"
 						>
 							<i className="fab fa-twitter" />
-						</a>
-						<a
-							className="social-icon-link twitter"
-							href="/"
-							target="_blank"
-							rel="noopener noreferrer"
-							aria-label="LinkedIn"
-						>
-							<i className="fab fa-linkedin" />
 						</a>
 					</div>
 				</div>

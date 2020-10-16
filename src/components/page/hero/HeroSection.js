@@ -4,6 +4,7 @@ import '../hero/HeroSection.css';
 import '../../../App.css';
 import { css } from '@emotion/core';
 import MoonLoader from 'react-spinners/MoonLoader';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
 	const [ load, setLoad ] = useState(true);
@@ -22,11 +23,6 @@ function HeroSection() {
 			<video src="/assets/videos/video-2.mp4" autoPlay loop muted />
 			<h1>"Every picture tells a story.”</h1>
 			<p>What are you waiting for?</p>
-			<div className="hero-btns">
-				<Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-					GET STARTED
-				</Button>
-			</div>
 		</div>
 	);
 }
