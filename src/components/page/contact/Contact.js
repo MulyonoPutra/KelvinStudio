@@ -79,7 +79,7 @@ function Contact() {
                            </div>
                            <button
                               type="submit"
-                              className="btn btn-warning"
+                              className="btn btn-warning myButton"
                               id="send"
                               disabled={load}
                            >

@@ -189,6 +189,30 @@ h4 {
 	text-decoration: none;
 }
 
+.myButton {
+	background-color:#4a4a4a;
+	border-radius:41px;
+	display:inline-block;
+	cursor:pointer;
+	color:#e6e025;
+	font-family:Arial;
+	font-size:13px;
+	padding:8px 9px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#6d7a65;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+
+
+
 @media screen and (max-width: 768px) {
     .img-mssg {
         height: 320px;

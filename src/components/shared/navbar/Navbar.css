@@ -9,6 +9,10 @@
     top: 0;
     z-index: 999;
   }
+
+  .title,h1,.h1,h2,.h2,h3,.h3,h4.home__subtitle,h5.home--uppercase,.sky-pilot-access-denied h5,.sky-pilot-access-denied .h5,h4,.h4,h5,.h5,h6,.h6,.header-logo,.home__title,.title--flex,.product-form label,.password__hero {
+    font-family: 'Gotham', sans-serif;
+   }
   
   .navbar-container {
     display: flex;
