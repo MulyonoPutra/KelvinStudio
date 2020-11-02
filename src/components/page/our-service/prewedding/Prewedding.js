@@ -23,19 +23,19 @@ function Prewedding() {
                 <ul className='cards__items'>
                     <CardItem
                         src='/assets/images/prewedding2/DSC08469.jpg'
-                        text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+                        text='Once in a while, Right in the middle of an ordinary life, Love gives us a fairy tale.'
                         label='Prewedding of Indah & Ari'
                         path='/prewedding/prewedding-details1'
                     />
                     <CardItem
                         src='/assets/images/prewedding1/photo12.jpeg'
-                        text='Experience Football on Top of the Himilayan Mountains'
+                        text='Once upon a time, there was a boy who loved a girl, and her laughter was a question he wanted to spend his whole life answering.'
                         label='Prewedding of Tatu & Faqih'
                         path='/prewedding/prewedding-details'
                     />
                     <CardItem
                         src='/assets/images/photo4.jpg'
-                        text='Ride through the Sahara Desert on a guided camel tour'
+                        text='Where there is love, there is life.'
                         label='Prewedding'
                         path='/sign-up'
                     />

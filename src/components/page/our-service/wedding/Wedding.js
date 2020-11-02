@@ -24,19 +24,19 @@ function Wedding() {
                     <ul className='cards__items'>
                         <CardItem
                             src='/assets/images/_MG_4204.jpg'
-                            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+                            text='When in a relationship, a real man doesn’t make his woman jealous of others, he makes others jealous of his woman.'
                             label='Wedding of Ones & Udy'
                             path='/wedding/wedding-details-02'
                         />
                         <CardItem
                             src='/assets/images/DSC04353.JPG'
-                            text='Experience Football on Top of the Himilayan Mountains'
+                            text=' successful marriage requires falling in love many times, always with the same person.'
                             label='Wedding of Reni & Rendi'
                             path='/wedding/wedding-details-04'
                         />
                         <CardItem
                             src='/assets/images/wedding3/_MG_4166.jpg'
-                            text='Ride through the Sahara Desert on a guided camel tour'
+                            text='Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.'
                             label='Wedding of Riana & Nevanda'
                             path='/wedding/wedding-details-03'
                         />
