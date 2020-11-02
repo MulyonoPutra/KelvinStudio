@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import { Button } from '../../shared/button/Button';
 import '../hero/HeroSection.css';
 import '../../../App.css';
 import { css } from '@emotion/core';
 import MoonLoader from 'react-spinners/MoonLoader';
-import { Link } from 'react-router-dom';
 
 function HeroSection() {
 	const [ load, setLoad ] = useState(true);
