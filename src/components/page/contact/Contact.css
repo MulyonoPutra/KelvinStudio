@@ -128,7 +128,8 @@
 
 h4 {
 	font-size: 12;
-	font-weight: 100;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
 }
 
 .form button {
@@ -207,10 +208,6 @@ h4 {
 	position:relative;
 	top:1px;
 }
-
-        
-
-
 
 
 @media screen and (max-width: 768px) {

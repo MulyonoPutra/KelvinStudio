@@ -33,11 +33,13 @@ function Contact() {
                         <h4>Cornerspace.id, Taman Krakatau E20/20 RT 004/008, Waringinkurung, Serang, Banten 42453</h4>
                         <h4>+62 812-7595-2241</h4>
                      </div>
+                     <br/>
                      <div className="forms">
                         <form
                            className="form-group"
                            id="my-form"
-                           action="https://formspree.io/f/mgendvow"
+                           // action="https://formspree.io/f/mgendvow"
+                           action="https://formspree.io/xyybyzdr"
                            method="POST"
                         >
                            <div className="mb-3">

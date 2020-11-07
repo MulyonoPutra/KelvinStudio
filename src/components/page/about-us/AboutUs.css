@@ -12,14 +12,22 @@
     border-radius: 0%;
 }
 
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #CFB53B;
+}
+
 .about-text {
     margin-top: 50px;
     margin-bottom: 50px;
-	margin-left: 190px;
-	margin-right: 190px;
+	margin-left: 210px;
+	margin-right: 210px;
 	text-align: center;
-	color: #c5b358;
-	font-size: 15px;
+	color: #CFB53B;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -29,7 +37,14 @@
         margin-left: 90px;
         margin-right: 90px;
         text-align: center;
-        color: #c5b358;
+        color: #CFB53B;
         font-size: 15px;
+        font-weight: bold;
+    }
+
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: #CFB53B;
     }
   }

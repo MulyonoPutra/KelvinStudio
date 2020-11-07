@@ -1,28 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
-@font-face {
-	font-family: 'Gotham';
-	src: 	url('{{ "Gotham-Bold.eot" | asset_url }}');
-	src: 	url('{{ "Gotham-Bold.eot" | asset_url }}#iefix') format("embedded-opentype"),
-			url('{{ "GothamBold.woff" | asset_url }}') format("woff"),
-	  url('{{ "GothamBold.woff2" | asset_url }}') format("woff2"),
-		   url('{{ "GothamBold.svg" | asset_url }}#GothamBold') format("svg");
-		  font-weight: bold;
-		  font-style: normal;
-  }
-
-  .title,h1,.h1,h2,.h2,h3,.h3,h4.home__subtitle,h5.home--uppercase,.sky-pilot-access-denied h5,.sky-pilot-access-denied .h5,h4,.h4,h5,.h5,h6,.h6,.header-logo,.home__title,.title--flex,.product-form label,.password__hero {
-	font-family: 'Gotham', sans-serif;
- }
 
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	/* font-family: 'Josefin Sans', sans-serif; */
-	font-family: 'Gotham', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
 	color: #c5b358;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
 }
 
 .home,

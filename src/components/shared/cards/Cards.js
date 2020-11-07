@@ -1,7 +1,8 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import * as Constants from '../../shared/Constants' 
+import * as Constants from '../../shared/Constants'
+import '../../../App.css';
 
 function Cards() {
   return (
