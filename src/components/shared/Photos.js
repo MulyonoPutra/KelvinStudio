@@ -92,6 +92,35 @@ export const preWeddingGallery01 = [
 	{ src: '/assets/images/prewedding1/A7205741.jpg', width: 4, height: 3 },
 ];
 
+export const preWeddingGallery02 = [
+	{ src: '/assets/images/prewedding3/DSCF4517.jpg', width: 3, height: 4 },
+	{ src: '/assets/images/prewedding3/DSCF4549.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4574.jpg', width: 3, height: 4 },
+	{ src: '/assets/images/prewedding3/DSCF4666.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4714.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4714.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4735.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4769.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4772.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4780.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4789.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4800.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4849.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4889.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF4896.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF5001.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF5016.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF5048.jpg', width: 3, height: 4 },
+	{ src: '/assets/images/prewedding3/DSCF5096.jpg', width: 3, height: 4 },
+	{ src: '/assets/images/prewedding3/DSCF5168.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF5191.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF5208.jpg', width: 3, height: 4 },
+	{ src: '/assets/images/prewedding3/DSCF5224.jpg', width: 3, height: 4 },
+	{ src: '/assets/images/prewedding3/DSCF5272.jpg', width: 3, height: 4 },
+	{ src: '/assets/images/prewedding3/DSCF5395.jpg', width: 4, height: 3 },
+	{ src: '/assets/images/prewedding3/DSCF5398.jpg', width: 4, height: 3 },
+];
+
 
 
 /* _MG_4204.jpg */

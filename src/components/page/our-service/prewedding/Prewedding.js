@@ -34,10 +34,10 @@ function Prewedding() {
                         path='/prewedding/prewedding-details'
                     />
                     <CardItem
-                        src='/assets/images/photo4.jpg'
+                        src='/assets/images/prewedding3/DSCF5016.jpg'
                         text='Where there is love, there is life.'
                         label='Prewedding'
-                        path='/sign-up'
+                        path='/prewedding/prewedding-details2'
                     />
                 </ul>
             </div>

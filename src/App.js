@@ -9,6 +9,7 @@ import AboutUs from './components/page/about-us/AboutUs';
 import Prewedding from './components/page/our-service/prewedding/Prewedding';
 import PreweddingDetails from './components/page/our-service/prewedding/PreweddingDetails';
 import PreweddingDetails1 from './components/page/our-service/prewedding/PreweddingDetails1';
+import PreweddingDetails2 from './components/page/our-service/prewedding/PreweddingDetails2';
 import Wedding from './components/page/our-service/wedding/Wedding';
 import WeddingDetails04 from './components/page/our-service/wedding/WeddingDetails4';
 import WeddingDetails03 from './components/page/our-service/wedding/WeddingDetails3';
@@ -27,6 +28,7 @@ function App() {
         <Route path="/prewedding" exact component={Prewedding} />
         <Route path="/prewedding/prewedding-details" exact component={PreweddingDetails} />
         <Route path="/prewedding/prewedding-details1" exact component={PreweddingDetails1} />
+        <Route path="/prewedding/prewedding-details2" exact component={PreweddingDetails2} />
         <Route path="/wedding" exact component={Wedding} />
         <Route path="/wedding/wedding-details-04" exact component={WeddingDetails04} />
         <Route path="/wedding/wedding-details-03" exact component={WeddingDetails03} />
