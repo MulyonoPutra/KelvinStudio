@@ -36,7 +36,7 @@ function Prewedding() {
                     <CardItem
                         src='/assets/images/prewedding3/DSCF5016.jpg'
                         text='Where there is love, there is life.'
-                        label='Prewedding'
+                        label='Prewedding Amia & Ugi'
                         path='/prewedding/prewedding-details2'
                     />
                 </ul>
