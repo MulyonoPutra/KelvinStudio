@@ -23,7 +23,7 @@ function Wedding() {
                     <br />
                     <ul className='cards__items'>
                         <CardItem
-                            src='/assets/images/_MG_4204.jpg'
+                            src='/assets/images/_MG_7957.jpg'
                             text='When in a relationship, a real man doesn’t make his woman jealous of others, he makes others jealous of his woman.'
                             label='Wedding of Ones & Udy'
                             path='/wedding/wedding-details-02'

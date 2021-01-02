@@ -5,52 +5,58 @@ import MoonLoader from 'react-spinners/MoonLoader';
 import '../../about-us/AboutUs.css'
 
 function Prewedding() {
-    const [ load, setLoad ] = useState(true);
+    const [load, setLoad] = useState(true);
 
     React.useEffect(() => {
-		const timeoutID = setTimeout(() => {
-			setLoad(false);
-		}, 500);
-		return () => clearTimeout(timeoutID);
+        const timeoutID = setTimeout(() => {
+            setLoad(false);
+        }, 500);
+        return () => clearTimeout(timeoutID);
     }, []);
-    
+
     return load ? (
-		Spinners()
-	) : (
-        <>
-            <div>
-                <br/>
-                <ul className='cards__items'>
-                    <CardItem
-                        src='/assets/images/prewedding2/DSC08469.jpg'
-                        text='Once in a while, Right in the middle of an ordinary life, Love gives us a fairy tale.'
-                        label='Prewedding Indah & Ari'
-                        path='/prewedding/prewedding-details1'
-                    />
-                    <CardItem
-                        src='/assets/images/prewedding1/photo12.jpeg'
-                        text='Once upon a time, there was a boy who loved a girl, and her laughter was a question he wanted to spend his whole life answering.'
-                        label='Prewedding Tatu & Faqih'
-                        path='/prewedding/prewedding-details'
-                    />
-                    <CardItem
-                        src='/assets/images/prewedding3/DSCF5016.jpg'
-                        text='Where there is love, there is life.'
-                        label='Prewedding Amia & Ugi'
-                        path='/prewedding/prewedding-details2'
-                    />
-                </ul>
-            </div>
-        </>
-    )
+        Spinners()
+    ) : (
+            <>
+                <div>
+                    <br />
+                    <ul className='cards__items'>
+                        <CardItem
+                            src='/assets/images/prewedding2/DSC08469.jpg'
+                            text='Once in a while, Right in the middle of an ordinary life, Love gives us a fairy tale.'
+                            label='Prewedding Indah & Ari'
+                            path='/prewedding/prewedding-details1'
+                        />
+                        <CardItem
+                            src='/assets/images/prewedding1/photo12.jpeg'
+                            text='Once upon a time, there was a boy who loved a girl, and her laughter was a question he wanted to spend his whole life answering.'
+                            label='Prewedding Tatu & Faqih'
+                            path='/prewedding/prewedding-details'
+                        />
+                        <CardItem
+                            src='/assets/images/prewedding3/DSCF5016.jpg'
+                            text='Where there is love, there is life.'
+                            label='Prewedding Amia & Ugi'
+                            path='/prewedding/prewedding-details2'
+                        />
+                        <CardItem
+                            src='/assets/images/prewedding4/ratna-and-leman01.jpg'
+                            text='When you realise you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.'
+                            label='Prewedding Ratna & Leman'
+                            path='/prewedding/prewedding-details3'
+                        />
+                    </ul>
+                </div>
+            </>
+        )
 }
 
 const Spinners = (load) => {
-	return (
-		<div className="sweet-loading">
-			<MoonLoader css={override} size={150} color={"#C5B358"} loading={load} />
-		</div>
-	);
+    return (
+        <div className="sweet-loading">
+            <MoonLoader css={override} size={150} color={"#C5B358"} loading={load} />
+        </div>
+    );
 }
 
 const override = css`
