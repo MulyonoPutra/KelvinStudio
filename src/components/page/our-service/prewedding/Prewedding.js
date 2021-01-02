@@ -24,13 +24,13 @@ function Prewedding() {
                     <CardItem
                         src='/assets/images/prewedding2/DSC08469.jpg'
                         text='Once in a while, Right in the middle of an ordinary life, Love gives us a fairy tale.'
-                        label='Prewedding of Indah & Ari'
+                        label='Prewedding Indah & Ari'
                         path='/prewedding/prewedding-details1'
                     />
                     <CardItem
                         src='/assets/images/prewedding1/photo12.jpeg'
                         text='Once upon a time, there was a boy who loved a girl, and her laughter was a question he wanted to spend his whole life answering.'
-                        label='Prewedding of Tatu & Faqih'
+                        label='Prewedding Tatu & Faqih'
                         path='/prewedding/prewedding-details'
                     />
                     <CardItem

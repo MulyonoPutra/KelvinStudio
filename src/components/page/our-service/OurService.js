@@ -28,7 +28,7 @@ function OurService() {
               path='/wedding'
             />
             <CardItem
-              src='/assets/images/photo4.jpg'
+              src='/assets/images/prewedding3/DSCF4889.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Prewedding'
               path='/prewedding'

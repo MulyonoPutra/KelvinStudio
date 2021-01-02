@@ -49,15 +49,10 @@ function Footer() {
 			</div>
 			<section className="social-media">
 				<div className="social-media-wrap">
-					{/* <div className="footer-logo">
-						<Link to="/" className="social-logo">
-							<img className="size-logo" src="/assets/images/logo/gold.png" alt="" />
-						</Link>
-					</div> */}
-					<small className="website-rights">Kelvin Photography © 2020 All Right Reserved.</small>
+					<small className="website-rights">Kelvin Photography © 2021 All Right Reserved.</small>
 					<div className="social-icons">
 						<a
-							href="/"
+							href="https://www.facebook.com/kelvinstudio.kelvinstudio"
 							className="social-icon-link facebook"
 							to="/"
 							target="_blank"
@@ -77,7 +72,7 @@ function Footer() {
 						</a>
 						<a
 							className="social-icon-link youtube"
-							href="/"
+							href="https://www.youtube.com/"
 							target="_blank"
 							rel="noopener noreferrer"
 							aria-label="Youtube"

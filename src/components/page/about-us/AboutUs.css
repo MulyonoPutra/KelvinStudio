@@ -1,50 +1,51 @@
 .sweet-loading {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .jumbotron {
-    background-image: url('/assets/images/DSC04353.JPG');
-    height: 550px;
-    margin-top: 25px;
-    margin-bottom: -26px;
-    background-size: cover cover;
-    background-position: center center;
-    border-radius: 0%;
+  background-image: url("/assets/images/DSC04353.JPG");
+  height: 550px;
+  margin-top: 25px;
+  margin-bottom: -26px;
+  background-size: cover cover;
+  background-position: center center;
+  border-radius: 0%;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    color: #CFB53B;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #cfb53b;
 }
 
 .about-text {
-    margin-top: 50px;
-    margin-bottom: 50px;
-	margin-left: 210px;
-	margin-right: 210px;
-	text-align: center;
-	color: #CFB53B;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: 'Raleway', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 210px;
+  line-height: 80%;
+  margin-right: 210px;
+  text-align: center;
+  color: #cfb53b;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
 }
 
 @media screen and (max-width: 768px) {
-    .about-text {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 90px;
-        margin-right: 90px;
-        text-align: center;
-        color: #CFB53B;
-        font-size: 15px;
-        font-weight: bold;
-    }
-
-    p {
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-        color: #CFB53B;
-    }
+  .about-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    color: #cfb53b;
+    font-size: 15px;
+    font-weight: bold;
   }
+
+  p {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #cfb53b;
+  }
+}

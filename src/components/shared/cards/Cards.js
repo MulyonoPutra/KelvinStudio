@@ -27,10 +27,10 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/assets/images/_MG_4204.jpg'
+              src='/assets/images/prewedding3/DSCF4889.jpg'
               text='In the arithmetic of love, one plus one equals everything, and two minus one equals nothing.'
-              label='Wedding'
-              path='wedding/wedding-details-02'
+              label='Prewedding'
+              path='/prewedding/prewedding-details2'
             />
             <CardItem
               src='/assets/images/DSC04353.JPG'

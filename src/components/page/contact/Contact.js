@@ -27,11 +27,12 @@ function Contact() {
                      <img src="/assets/images/logo/undraw_opened_gi4n.png" alt="mssg" className="img-mssg" />
                   </li>
                   <li>
-                     <div className="addresses">
-                        <h4>For reservations and enquiries : </h4> <br />
-                        <h4>Kelvinstudioofficial@gmail.com</h4>
-                        <h4>Cornerspace.id, Taman Krakatau E20/20 RT 004/008, Waringinkurung, Serang, Banten 42453</h4>
-                        <h4>+62 812-7595-2241</h4>
+                     <div className="addresses list-group">
+                        <h2 className="bg-transparent">For reservations and enquiries : </h2> 
+                        <br/>
+                        <h4>Kelvinstudioofficial@gmail.com</h4> <br/>
+                        <h4>Cornerspace.id, Taman Krakatau E20/20 RT 004/008, Waringinkurung, Serang, Banten 42453</h4> <br/>
+                        <h4>0812-7595-2241</h4>
                      </div>
                      <br/>
                      <div className="forms">
