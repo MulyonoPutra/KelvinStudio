@@ -23,13 +23,13 @@ function OurService() {
 			<ul className='cards__items'>
             <CardItem
               src='/assets/images/_MG_8783.JPG'
-              text='Explores the hidden waterfall deep inside the Amazon Jungle'
+              text='A successful marriage requires falling in love many times, always with the same person.'
               label='Wedding'
               path='/wedding'
             />
             <CardItem
               src='/assets/images/prewedding3/DSCF4889.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='To find someone who will love you for no reason, and to shower that person with reasons, that is the ultimate happiness.'
               label='Prewedding'
               path='/prewedding'
             />

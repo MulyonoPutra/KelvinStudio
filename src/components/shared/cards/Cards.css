@@ -45,7 +45,7 @@
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
-    text-decoration: none;
+    text-decoration: none !important;
   }
   
   .cards__item__pic-wrap {
@@ -95,6 +95,7 @@
   
   .cards__item__info {
     padding: 20px 30px 30px;
+    text-decoration: none !important;
   }
   
   .cards__item__text {
@@ -103,6 +104,11 @@
     line-height: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    text-decoration: none !important;
+  }
+
+  .nounderline {
+    text-decoration: none !important;
   }
   
   @media only screen and (min-width: 1200px) {
