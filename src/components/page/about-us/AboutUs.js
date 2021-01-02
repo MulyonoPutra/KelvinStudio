@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../../../App.css';
 import {css} from '@emotion/core';
 import MoonLoader from 'react-spinners/MoonLoader';
 import '../about-us/AboutUs.css';
 import * as Constants from '../../shared/Constants';
 import Footer from '../../shared/footer/Footer';
+import CarouselComponent from '../../shared/carousel/CarouselComponent';
 
 function AboutUs() {
     const [load,
@@ -21,7 +22,7 @@ function AboutUs() {
         ? (Spinners())
         : (
             <div>
-                <div className="jumbotron"></div>
+                <CarouselComponent/>
                 <h4 className="about-text">
                     <p>{Constants.ABOUT_US}</p>
                 </h4>

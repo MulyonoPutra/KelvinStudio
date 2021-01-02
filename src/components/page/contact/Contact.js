@@ -28,11 +28,11 @@ function Contact() {
                   </li>
                   <li>
                      <div className="addresses list-group">
-                        <h2 className="bg-transparent">For reservations and enquiries : </h2> 
+                        <h4 className="bg-transparent"><b>For reservations and enquiries : </b></h4> 
                         <br/>
-                        <h4>Kelvinstudioofficial@gmail.com</h4> <br/>
-                        <h4>Cornerspace.id, Taman Krakatau E20/20 RT 004/008, Waringinkurung, Serang, Banten 42453</h4> <br/>
-                        <h4>0812-7595-2241</h4>
+                        <div>Kelvinstudioofficial@gmail.com</div> <br/>
+                        <div>Cornerspace.id, Taman Krakatau E20/20 RT 006/008, Waringinkurung, Serang, Banten 42453</div> <br/>
+                        <div>0812-7595-2241</div>
                      </div>
                      <br/>
                      <div className="forms">
