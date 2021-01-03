@@ -22,7 +22,7 @@ function OurService() {
 			<div>
 			<ul className='cards__items'>
             <CardItem
-              src='/assets/images/_MG_8783.JPG'
+              src='/assets/images/wedding1/_MG_8783.JPG'
               text='A successful marriage requires falling in love many times, always with the same person.'
               label='Wedding'
               path='/wedding'

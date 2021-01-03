@@ -24,7 +24,7 @@ function Contact() {
             <div>
                <ul className="grid-container">
                   <li>
-                     <img src="/assets/images/logo/undraw_opened_gi4n.png" alt="mssg" className="img-mssg" />
+                     <img src="/assets/images/logo/mailbox.png" alt="mssg" className="img-mssg" />
                   </li>
                   <li>
                      <div className="addresses list-group">

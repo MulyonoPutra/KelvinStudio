@@ -19,7 +19,7 @@ function Cards() {
               path='/prewedding/prewedding-details'
             />
             <CardItem
-              src='/assets/images/_MG_7957.jpg'
+              src='/assets/images/wedding1/_MG_7957.jpg'
               text='A hundred hearts would be too few to carry all my love for you.'
               label='Wedding'
               path='wedding/wedding-details-02'
@@ -33,7 +33,7 @@ function Cards() {
               path='/prewedding/prewedding-details2'
             />
             <CardItem
-              src='/assets/images/DSC04353.JPG'
+              src='/assets/images/wedding4/DSC04353.JPG'
               text='I would rather share one lifetime with you than face all the ages of this world alone.'
               label='Wedding'
               path='wedding/wedding-details-04'
