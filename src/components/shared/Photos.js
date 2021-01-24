@@ -31,11 +31,10 @@ export const weddingGallery03 = [
 	{ src: '/assets/images/wedding3/_MG_3703.jpg', width: 4, height: 3 },
 	{ src: '/assets/images/wedding3/_MG_3709.jpg', width: 4, height: 3 },
 	{ src: '/assets/images/wedding3/_MG_3744.jpg', width: 4, height: 3 },
-	{ src: '/assets/images/wedding3/_MG_4094.jpg', width: 6, height: 4 },
+	{ src: '/assets/images/wedding3/_MG_4094.jpg', width: 8, height: 4 },
 	{ src: '/assets/images/wedding3/_MG_4126.jpg', width: 3, height: 5 },
 	{ src: '/assets/images/wedding3/_MG_4140.jpg', width: 4, height: 3 },
 	{ src: '/assets/images/wedding3/_MG_4166.jpg', width: 5, height: 3 },
-	{ src: '/assets/images/wedding3/_MG_4204.jpg', width: 4, height: 3 },
 ];
 
 export const weddingGallery04 = [
